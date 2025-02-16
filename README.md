@@ -196,3 +196,15 @@ mvn test -Dtest=AccountServiceTest#testSuccessfulTransfer
    - Verify Java version
    - Check classpath
    - Review error logs
+
+
+## Version Control
+
+A .gitignore file is included to exclude:
+- Compiled files (target/, *.class)
+- IDE settings (.idea/, .vscode/)
+- Database files (*.db)
+- Local config (application.properties)
+- Log files (*.log, transactions.txt)
+
+This helps keep your repository clean when using version control.
