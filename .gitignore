@@ -64,3 +64,6 @@ buildNumber.properties
 
 # Application specific
 application.properties
+
+
+transactions.txt
